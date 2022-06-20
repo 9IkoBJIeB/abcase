@@ -3,9 +3,11 @@
 
 С использованием Docker:
 docker build . -t abcase
+
 docker run -p 8080:8080 -t abcase
 
 С использованием Gradle:
+
 gradlew bootRun
 
 После старта приложения доступно два эндпоинта:
